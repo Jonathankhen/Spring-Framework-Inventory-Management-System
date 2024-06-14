@@ -19,34 +19,35 @@ This inventory management system is designed for a customer that sells a product
 
 ### Customization Tasks
 
-1. **HTML User Interface Customization**
+**HTML User Interface Customization**
    - Customized the user interface to include the shop name, product names, and part names.
+![image](https://github.com/Jonathankhen/Spring-Framework-Inventory-Management-System/assets/121633526/0dd39b15-fb7a-495d-b84f-fda27ff1e67b)
 
-2. **About Page**
+**About Page**
    - Added an "About" page to describe the customer's company.
    - Included navigation to and from the "About" page and the main screen.
 
-3. **Sample Inventory**
+**Sample Inventory**
    - Added a sample inventory appropriate for the chosen store.
    - Included five parts and five products in the sample inventory.
    - Ensured the sample inventory is only added when both part and product lists are empty.
 
-4. **Buy Now Button**
+**Buy Now Button**
    - Added a "Buy Now" button next to the buttons that update and delete products.
    - The button decrements the inventory of the product by one and displays a success or failure message.
 
-5. **Track Maximum and Minimum Inventory**
+**Track Maximum and Minimum Inventory**
    - Added fields to the part entity for maximum and minimum inventory.
    - Modified the sample inventory to include these fields.
    - Updated forms to include text inputs for setting maximum and minimum values.
    - Ensured inventory levels are between or at the minimum and maximum values.
 
-6. **Validation**
+**Validation**
    - Added validation to ensure inventory is within the specified range.
    - Displayed error messages for low or high inventory when adding or updating parts.
 
-7. **Unit Tests**
+**Unit Tests**
    - Added unit tests for the maximum and minimum inventory fields in the `PartTest` class.
 
-8. **Code Cleanup**
+**Code Cleanup**
    - Removed class files for any unused validators.
